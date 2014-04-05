@@ -1,0 +1,8 @@
+exports.render = function template* () {
+
+html
+    head
+    body
+        h1 "Some header text"
+
+}

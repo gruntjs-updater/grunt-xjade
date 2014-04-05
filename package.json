@@ -1,0 +1,52 @@
+{
+  "name": "grunt-xjade",
+
+  "description": "Compile XJade templates with grunt.",
+
+  "version": "0.0.1",
+
+  "homepage": "https://github.com/dorny/grunt-xjade",
+
+  "author": {
+    "name": "Michal Dorner",
+    "email": "dorner.michal@gmail.com"
+  },
+
+  "files": [
+    "tasks",
+    "LICENSE.txt",
+    "README.md",
+    "package.json"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dorny/grunt-xjade.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/dorny/grunt-xjade/issues"
+  },
+
+  "license": "MIT",
+
+  "scripts": {
+    "test": "grunt test"
+  },
+
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.4"
+  },
+
+  "peerDependencies": {
+    "grunt": "~0.4.4"
+  },
+
+  "keywords": [
+    "gruntplugin",
+    "xjade"
+  ]
+}
