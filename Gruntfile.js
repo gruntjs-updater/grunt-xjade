@@ -31,7 +31,7 @@ module.exports = function(grunt) {
       },
 
       index: {
-        src: 'test/fixtures/index.js-tpl',
+        src: 'test/fixtures/index.xjade',
         dest: 'test/tmp/index.html',
         options: {
           compile: 'html',
@@ -41,7 +41,7 @@ module.exports = function(grunt) {
       },
 
       client: {
-        src: 'test/fixtures/client.js-tpl',
+        src: 'test/fixtures/client.xjade',
         dest: 'test/tmp/client.js',
       },
 
@@ -49,14 +49,14 @@ module.exports = function(grunt) {
         files: [{
           expand: true,
           flatten: true,
-          src: 'test/fixtures/expand*.js-tpl',
+          src: 'test/fixtures/expand*.xjade',
           dest: 'test/tmp',
           ext: '.js',
         }]
       },
 
       concat: {
-        src: 'test/fixtures/expand*.js-tpl',
+        src: 'test/fixtures/expand*.xjade',
         dest: 'test/tmp/concat.js',
       },
 

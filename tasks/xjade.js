@@ -16,7 +16,6 @@ module.exports = function(grunt) {
 
   grunt.registerMultiTask('xjade', 'Compile XJade templates with grunt.', function() {
 
-
     var options = this.options({
       compile: 'js',
       doctype: '5',

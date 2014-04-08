@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/dorny/grunt-xjade.png?branch=master)](https://travis-ci.org/dorny/grunt-xjade)
+[![Dependency Status](https://gemnasium.com/dorny/grunt-xjade.png)](https://gemnasium.com/dorny/grunt-xjade)
+
 # grunt-xjade
 
 Compile [XJade](https://github.com/dorny/xjade) templates with grunt.
