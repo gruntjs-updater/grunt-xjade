@@ -3,7 +3,7 @@
 
   "description": "Compile XJade templates with grunt.",
 
-  "version": "0.0.2",
+  "version": "0.1.0",
 
   "homepage": "https://github.com/dorny/grunt-xjade",
 
@@ -35,7 +35,7 @@
   },
 
   "dependencies": {
-    "xjade": "*"
+    "xjade": "0.1.0"
   },
 
   "devDependencies": {
