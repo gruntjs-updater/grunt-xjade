@@ -1,18 +1,16 @@
 function (parent) {
-  var el, __expr;
-
-  /* LINE: 2 */
-  var __div$0 = el = document.createElement('div');
-  __div$0.textContent = "client template 1";
-  parent.appendChild(__div$0);
-  return parent;
+    var __expr;
+    /* LINE: 2 */
+    var div$1 = document.createElement('div');
+    div$1.textContent = "client template 1";
+    parent.appendChild(div$1);
+    return parent;
 }
 function (parent) {
-  var el, __expr;
-
-  /* LINE: 2 */
-  var __div$0 = el = document.createElement('div');
-  __div$0.textContent = "client template 2";
-  parent.appendChild(__div$0);
-  return parent;
+    var __expr;
+    /* LINE: 2 */
+    var div$1 = document.createElement('div');
+    div$1.textContent = "client template 2";
+    parent.appendChild(div$1);
+    return parent;
 }
